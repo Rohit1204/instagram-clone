@@ -1,0 +1,22 @@
+.FollowButton_root{
+    margin: 0;
+    line-height: 1;
+    height: initial;
+    padding: 8px 30px;
+    font-size: 14px;
+    text-transform: none;
+}
+.FollowButton_root:active{
+opacity: .5;
+}
+button.FollowButton_root,button.FollowButton_root:hover{
+    border-color: #3897f0;
+    color: #3897f0;
+}
+
+button.FollowButton_root.FollowButton--following,button.FollowButton_root.FollowButton--following:hover,button.FollowButton_root.FollowButton--following:active{
+
+    background-color: #70c050;
+    color: #fff;
+    border: none;
+}
