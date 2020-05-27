@@ -1,0 +1,8 @@
+.CommentBox__root{
+    width: 100%;
+}
+.CommentBox_input{
+    width: 100%;
+    margin: 0;
+    border: none !important;
+}
